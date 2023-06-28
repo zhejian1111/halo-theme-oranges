@@ -89,3 +89,15 @@ spec:
           name: icp_link
           label: ICP备案跳转链接
           value: https://beian.miit.gov.cn/
+    - group: rightMenu
+      label: 右键菜单
+      formSchema:
+        - $formkit: radio
+          name: switch
+          label: 开关
+          value: false
+          options:
+            - label: 打开
+              value: true
+            - label: 关闭
+              value: false
